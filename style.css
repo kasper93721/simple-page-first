@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+body {
+    background-color:#DAF9B2 ;
+}
+
+.section {
+   max-width: 1500px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 auto;
+}
+
+.container {
+    background-color: #DAF9B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vm;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    padding: 15px auto;
+}
+
+.navigation-link {
+    font-weight: 600;
+    size: 14px;
+    line-height: 20px;
+    color:  #111827;
+    position: relative;
+}
+
+.navigation-link:not(last-child) {
+    margin-right: 40px;
+}
+
+.navigation-link::after {
+    display: block;
+    position: absolute;
+    background-color: #FE8922;
+    bottom: -5px;
+    width: 0;
+    height: 1px;
+
+}
+
+.navigation-link:hover {
+    color: #FE8922;
+}
+
+.navigation-link:focus {
+    color: #FE8922;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 72px 0px 72px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 272px ;
+    max-width: 648px;
+    font-size: 58px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+.subtitle {
+margin-top: 24px;
+margin-bottom: 44px;
+text-align: center;
+max-width: 648px;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+
+.button {
+    margin-bottom: 172px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.button:hover {
+    color: #FE993F;
+    border: 1px solid #FE993F; 
+
+}
+
+.footer    {
+    background-color: black;
+    width: 100%;
+  }
+
+  .down-text {
+    color: #D1D5DB;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 72px;
+  }
