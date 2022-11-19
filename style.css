@@ -13,7 +13,7 @@ body {
 }
 
 .section {
-   max-width: 1500px;
+   max-width: 1366px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -21,17 +21,12 @@ body {
    margin: 0 auto;
 }
 
-.container {
-    background-color: #DAF9B2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vm;
-}
 
 .logo {
     display: flex;
     flex-direction: row;
+    position: relative;
+    
 }
 
 .navigation {
@@ -64,10 +59,20 @@ body {
 
 .navigation-link:hover {
     color: #FE8922;
+    cursor: pointer;
 }
 
 .navigation-link:focus {
     color: #FE8922;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #DAF9B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .header {
@@ -75,7 +80,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
     padding: 30px 72px 0px 72px;
+    position: relative;
 }
 
 .main {
@@ -128,12 +135,13 @@ line-height: 28px;
 .button:hover {
     color: #FE993F;
     border: 1px solid #FE993F; 
+    cursor: pointer;
 
 }
 
 .footer    {
     background-color: black;
-    width: 100%;
+    max-width: 100%;
   }
 
   .down-text {
