@@ -65,6 +65,8 @@ body {
 .navigation-link:focus {
     color: #FE8922;
     cursor: pointer;
+    text-decoration: underline;
+
 }
 
 .container {
@@ -133,12 +135,15 @@ line-height: 28px;
 }
 
 .button:hover {
+    color: #FE993F;     
+    cursor: pointer;
+}
+
+.button:focus {
     color: #FE993F;
     border: 1px solid #FE993F; 
     cursor: pointer;
-
 }
-
 .footer    {
     background-color: black;
     max-width: 100%;
